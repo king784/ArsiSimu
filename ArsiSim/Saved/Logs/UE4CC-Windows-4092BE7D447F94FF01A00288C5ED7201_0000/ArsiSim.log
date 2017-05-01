@@ -1,0 +1,401 @@
+﻿Log file open, 04/27/17 18:48:41
+LogInit:Display: Running engine for game: ArsiSim
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-801897472) SRandInit(-801897472).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.067828
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.27-15.48.42:240][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-15.48.42:240][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.27-15.48.42:249][  0]LogInit: Computer: C3008-04
+[2017.04.27-15.48.42:249][  0]LogInit: User: teemuturku
+[2017.04.27-15.48.42:249][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.27-15.48.42:249][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2017.04.27-15.48.42:249][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.27-15.48.42:249][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.27-15.48.42:249][  0]LogMemory: Process Physical Memory: 262.74 MB used, 262.74 MB peak
+[2017.04.27-15.48.42:249][  0]LogMemory: Process Virtual Memory: 262.63 MB used, 262.63 MB peak
+[2017.04.27-15.48.42:249][  0]LogMemory: Physical Memory: 3528.01 MB used,  12736.58 MB free, 16264.59 MB total
+[2017.04.27-15.48.42:249][  0]LogMemory: Virtual Memory: 645.56 MB used,  12736.58 MB free, 134217728.00 MB total
+[2017.04.27-15.48.42:313][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.04.27-15.48.42:814][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.27-15.48.42:842][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.04.27-15.48.42:842][  0]LogD3D11RHI:       1969/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.27-15.48.42:847][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.27-15.48.42:847][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.27-15.48.42:848][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.27-15.48.42:848][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.27-15.48.42:848][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.27-15.48.42:850][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.27-15.48.42:850][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.27-15.48.42:850][  0]LogWindows: EnumDisplayDevices:
+[2017.04.27-15.48.42:851][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.04.27-15.48.42:851][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-15.48.42:851][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.27-15.48.42:851][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.04.27-15.48.42:851][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.27-15.48.42:851][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.27-15.48.42:851][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.27-15.48.42:862][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.04.27-15.48.42:862][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.27-15.48.42:880][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.27-15.48.42:881][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Intermediate/Shaders/WorkingDirectory/9232/).
+[2017.04.27-15.48.42:881][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/teemu.turku/AppData/Local/Temp/UnrealShaderWorkingDir/426FB5C74D7B271BDCFC9C97D51DA44D/'.
+[2017.04.27-15.48.42:881][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.27-15.48.43:566][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.27-15.48.43:608][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.27-15.48.43:649][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.27-15.48.43:691][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.27-15.48.43:733][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.27-15.48.43:774][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.27-15.48.43:817][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.27-15.48.43:858][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.27-15.48.43:891][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.27-15.48.43:931][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.27-15.48.43:970][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.27-15.48.44:009][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.27-15.48.44:049][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.27-15.48.44:090][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.27-15.48.44:131][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.27-15.48.44:213][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.27-15.48.44:213][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.27-15.48.44:240][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.27-15.48.44:316][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.27-15.48.44:343][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.27-15.48.44:382][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.27-15.48.44:421][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.27-15.48.44:460][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.27-15.48.44:500][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.27-15.48.44:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.27-15.48.44:803][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.27-15.48.44:840][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-15.48.44:840][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.27-15.48.44:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.27-15.48.44:840][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.27-15.48.44:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.27-15.48.44:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.27-15.48.44:855][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.27-15.48.44:867][  0]LogDerivedDataCache: Using Local data cache path C:/Users/teemu.turku/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.27-15.48.44:873][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.27-15.48.44:874][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-15.48.44:874][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-15.48.45:051][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-15.48.45:053][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.27-15.48.45:203][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.27-15.48.45:233][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.27-15.48.45:264][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.27-15.48.45:264][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.27-15.48.45:264][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.27-15.48.45:644][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: arsisim, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 275346067
+[2017.04.27-15.48.45:683][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.04.27-15.48.45:722][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022583 seconds
+[2017.04.27-15.48.45:726][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.27-15.48.45:726][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.04.27-15.48.45:726][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.27-15.48.45:771][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.27-15.48.46:901][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.27-15.48.46:932][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.27-15.48.47:261][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.27-15.48.47:527][  0]SourceControl: Info Source control is disabled
+[2017.04.27-15.48.47:528][  0]SourceControl: Info Source control is disabled
+[2017.04.27-15.48.47:561][  0]SourceControl: Info Source control is disabled
+[2017.04.27-15.48.47:590][  0]SourceControl: Info Source control is disabled
+[2017.04.27-15.48.48:412][  0]LogEngine: Initializing Engine...
+[2017.04.27-15.48.48:413][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.27-15.48.48:581][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.27-15.48.48:587][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-15.48.48:606][  0]LogInit: FAudioDevice initialized.
+[2017.04.27-15.48.48:626][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-15.48.48:631][  0]LogInit: Texture streaming: Enabled
+[2017.04.27-15.48.48:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.27-15.48.48:761][  0]LogInit: Transaction tracking system initialized
+[2017.04.27-15.48.49:000][  0]BlueprintLog: New page: Editor Load
+[2017.04.27-15.48.49:608][  0]LocalizationService: Info Localization service is disabled
+[2017.04.27-15.48.50:074][  0]LogConsoleResponse:Display: 
+[2017.04.27-15.48.50:178][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.27-15.48.50:178][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.27-15.48.50:444][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/' took 0.01s
+[2017.04.27-15.48.50:895][  0]SourceControl: Info Source control is disabled
+[2017.04.27-15.48.50:895][  0]Cmd: MAP LOAD FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Stadion.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.27-15.48.50:895][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Stadion.umap'
+[2017.04.27-15.48.50:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.27-15.48.50:920][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.368ms to complete.
+[2017.04.27-15.48.50:920][  0]LogFileHelpers: Loading map 'Stadion' took 0.026
+[2017.04.27-15.48.50:982][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.27-15.48.51:071][  0]LogCollectionManager: Loaded 0 collections in 0.001132 seconds
+[2017.04.27-15.48.51:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/Collections/' took 0.01s
+[2017.04.27-15.48.51:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Developers/teemuturku/Collections/' took 0.01s
+[2017.04.27-15.48.51:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Collections/' took 0.01s
+[2017.04.27-15.48.51:136][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.27-15.48.51:143][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2244 classes and 450 folders.
+[2017.04.27-15.48.51:146][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.27-15.48.51:146][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.27-15.48.51:191][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.04.27-15.48.51:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.27-15.48.51:246][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.27-15.48.51:317][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.27-15.48.51:325][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.27-15.48.51:381][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.27-15.48.51:382][  0]LogLoad: (Engine Initialization) Total time: 10.60 seconds
+[2017.04.27-15.48.51:382][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.04.27-15.48.51:382][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.27-15.48.51:382][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.27-15.48.51:392][  0]LogOcInput: OculusInput pre-init called
+[2017.04.27-15.48.51:424][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.27-15.48.51:425][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-15.48.51:428][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.27-15.48.51:433][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.27-15.48.51:607][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:2).
+[2017.04.27-15.48.51:664][  1]LogAssetRegistry: Asset discovery search completed in 6.0029 seconds
+[2017.04.27-15.48.51:664][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.04.27-15.48.51:664][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.04.27-15.48.52:423][ 86]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-15.48.56:656][562]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/' took 5.25s
+[2017.04.27-15.49.05:562][564]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-15.49.05:914][564]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.04.27-15.49.06:371][564]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-15.49.06:444][564]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.27-15.49.15:658][195]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.27-15.49.18:232][419]LogLinker:Warning: Can't find file '/Game/zombiesettii/Boots'
+[2017.04.27-15.49.18:232][419]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/Boots' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/arsisettii/Arsiharju__1_.uasset.
+[2017.04.27-15.49.18:232][419]LoadErrors:Error: Error /Game/arsisettii/Arsiharju__1_ : Can't find file for asset. /Game/zombiesettii/Boots
+[2017.04.27-15.49.18:233][419]LogLinker:Warning: Can't find file '/Game/zombiesettii/Boots'
+[2017.04.27-15.49.18:233][419]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/Boots' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/arsisettii/Arsiharju__1_.uasset.
+[2017.04.27-15.49.18:233][419]LogLinker:Warning: Can't find file '/Game/zombiesettii/Boots'
+[2017.04.27-15.49.18:233][419]LoadErrors: Info Failed to load /Game/zombiesettii/Boots.Boots Referenced by Arsiharju__1_
+[2017.04.27-15.49.18:234][419]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/Boots' while loading NULL.
+[2017.04.27-15.49.18:235][419]LogTexture:Display: Building textures: ArsinParta (AutoDXT)
+[2017.04.27-15.49.18:263][419]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.04.27-15.49.18:264][419]LogTemp:Display: Added material ShaderMap 0x00000248854E9980 with Material 0x0000024853DC9D80 to ShaderMapsBeingCompiled
+[2017.04.27-15.49.18:288][419]LogTemp:Display: Kicking off shader compilation for Body, GameThreadShaderMap 0x00000248854E9980
+[2017.04.27-15.49.18:288][419]LogStaticMesh: Building static mesh Arsiharju__1_...
+[2017.04.27-15.49.18:445][419]LogStaticMesh: Built static mesh [0.16s] /Game/arsisettii/Arsiharju__1_.Arsiharju__1_
+[2017.04.27-15.49.18:469][419]LogTexture:Display: Building textures: ArisHuivi (AutoDXT)
+[2017.04.27-15.49.18:526][419]LogMaterial: Missing cached shader map for material ArisHuivi_Mat, compiling. 
+[2017.04.27-15.49.18:526][419]LogTemp:Display: Added material ShaderMap 0x00000248432EE080 with Material 0x0000024833823280 to ShaderMapsBeingCompiled
+[2017.04.27-15.49.18:537][419]LogTemp:Display: Kicking off shader compilation for ArisHuivi_Mat, GameThreadShaderMap 0x00000248432EE080
+[2017.04.27-15.49.18:539][419]LogMaterial: Missing cached shader map for material ArsinParta_Mat, compiling. 
+[2017.04.27-15.49.18:539][419]LogTemp:Display: Added material ShaderMap 0x0000024828BC4800 with Material 0x000002482979A200 to ShaderMapsBeingCompiled
+[2017.04.27-15.49.18:551][419]LogTemp:Display: Kicking off shader compilation for ArsinParta_Mat, GameThreadShaderMap 0x0000024828BC4800
+[2017.04.27-15.49.18:552][419]LogTexture:Display: Building textures: ArsiIho (AutoDXT)
+[2017.04.27-15.49.18:579][419]LogMaterial: Missing cached shader map for material ArsiIho_Mat, compiling. 
+[2017.04.27-15.49.18:579][419]LogTemp:Display: Added material ShaderMap 0x000002488F6A6B00 with Material 0x00000248214C7580 to ShaderMapsBeingCompiled
+[2017.04.27-15.49.18:597][419]LogTemp:Display: Kicking off shader compilation for ArsiIho_Mat, GameThreadShaderMap 0x000002488F6A6B00
+[2017.04.27-15.49.19:909][505]LogTemp:Display: Finished compile of shader map 0x00000248854E9980
+[2017.04.27-15.49.19:910][505]LogTemp:Display: Shader map Body complete, GameThreadShaderMap 0x00000248854E9980, marking material Body as finished
+[2017.04.27-15.49.19:910][505]LogTemp:Display: Marking material as finished 0x0000024853DC9D80
+[2017.04.27-15.49.20:231][527]LogTemp:Display: Finished compile of shader map 0x00000248432EE080
+[2017.04.27-15.49.20:231][527]LogTemp:Display: Shader map ArisHuivi_Mat complete, GameThreadShaderMap 0x00000248432EE080, marking material ArisHuivi_Mat as finished
+[2017.04.27-15.49.20:231][527]LogTemp:Display: Marking material as finished 0x0000024833823280
+[2017.04.27-15.49.21:485][622]LogTemp:Display: Finished compile of shader map 0x0000024828BC4800
+[2017.04.27-15.49.21:485][622]LogTemp:Display: Shader map ArsinParta_Mat complete, GameThreadShaderMap 0x0000024828BC4800, marking material ArsinParta_Mat as finished
+[2017.04.27-15.49.21:485][622]LogTemp:Display: Marking material as finished 0x000002482979A200
+[2017.04.27-15.49.21:488][622]LogTemp:Display: Finished compile of shader map 0x000002488F6A6B00
+[2017.04.27-15.49.21:488][622]LogTemp:Display: Shader map ArsiIho_Mat complete, GameThreadShaderMap 0x000002488F6A6B00, marking material ArsiIho_Mat as finished
+[2017.04.27-15.49.21:488][622]LogTemp:Display: Marking material as finished 0x00000248214C7580
+[2017.04.27-15.49.22:889][755]LogRenderer: Reallocating scene render targets to support 1616x1000 NumSamples 1 (Frame:3730).
+[2017.04.27-15.49.54:080][203]LogMaterial: Missing cached shader map for material silmatoikeasti, compiling. 
+[2017.04.27-15.49.54:081][203]LogTemp:Display: Added material ShaderMap 0x000002486B89A400 with Material 0x000002486AC6E080 to ShaderMapsBeingCompiled
+[2017.04.27-15.49.54:109][203]LogTemp:Display: Kicking off shader compilation for silmatoikeasti, GameThreadShaderMap 0x000002486B89A400
+[2017.04.27-15.49.57:235][547]LogTemp:Display: Finished compile of shader map 0x000002486B89A400
+[2017.04.27-15.49.57:235][547]LogTemp:Display: Shader map silmatoikeasti complete, GameThreadShaderMap 0x000002486B89A400, marking material silmatoikeasti as finished
+[2017.04.27-15.49.57:235][547]LogTemp:Display: Marking material as finished 0x000002486AC6E080
+[2017.04.27-15.50.10:684][999]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-15.50.11:430][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-15.50.11:534][ 48]LogSavePackage: Save=92.76ms
+[2017.04.27-15.50.11:534][ 48]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar8A2617BF49917FC8B155A39EBCC9B228.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-15.50.11:535][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-15.50.31:124][278]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-15.50.31:794][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-15.50.31:893][321]LogSavePackage: Save=92.59ms
+[2017.04.27-15.50.31:893][321]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar334390E24271D71CF188D5ACA38C5DFE.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-15.50.31:896][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieKengat_Mat'
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieKengat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:658][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombieKengat_Mat
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieUpperBodyMat_Mat'
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieUpperBodyMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:658][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombieUpperBodyMat_Mat
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiFaceMat_Mat'
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiFaceMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:658][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombiFaceMat_Mat
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHairMat_Mat'
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHairMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:658][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombiHairMat_Mat
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHousutMat_Mat'
+[2017.04.27-15.51.02:658][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHousutMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:658][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombiHousutMat_Mat
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiSilmatMat_Inst'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiSilmatMat_Inst' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LoadErrors:Error: Error /Game/uusizombi/Zombie__2_ : Can't find file for asset. /Game/Tekstuurei/ZombiSilmatMat_Inst
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieKengat_Mat'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieKengat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieUpperBodyMat_Mat'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieUpperBodyMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiFaceMat_Mat'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiFaceMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHairMat_Mat'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHairMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHousutMat_Mat'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHousutMat_Mat' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiSilmatMat_Inst'
+[2017.04.27-15.51.02:659][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiSilmatMat_Inst' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/Zombie__2_.uasset.
+[2017.04.27-15.51.02:660][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiFaceMat_Mat'
+[2017.04.27-15.51.02:660][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombiFaceMat_Mat.ZombiFaceMat_Mat Referenced by Zombie__2_
+[2017.04.27-15.51.02:660][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiFaceMat_Mat' while loading NULL.
+[2017.04.27-15.51.02:660][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHousutMat_Mat'
+[2017.04.27-15.51.02:661][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombiHousutMat_Mat.ZombiHousutMat_Mat Referenced by Zombie__2_
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHousutMat_Mat' while loading NULL.
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieUpperBodyMat_Mat'
+[2017.04.27-15.51.02:661][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombieUpperBodyMat_Mat.ZombieUpperBodyMat_Mat Referenced by Zombie__2_
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieUpperBodyMat_Mat' while loading NULL.
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombieKengat_Mat'
+[2017.04.27-15.51.02:661][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombieKengat_Mat.ZombieKengat_Mat Referenced by Zombie__2_
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombieKengat_Mat' while loading NULL.
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiSilmatMat_Inst'
+[2017.04.27-15.51.02:661][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombiSilmatMat_Inst.ZombiSilmatMat_Inst Referenced by Zombie__2_
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiSilmatMat_Inst' while loading NULL.
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file '/Game/Tekstuurei/ZombiHairMat_Mat'
+[2017.04.27-15.51.02:661][208]LoadErrors: Info Failed to load /Game/Tekstuurei/ZombiHairMat_Mat.ZombiHairMat_Mat Referenced by Zombie__2_
+[2017.04.27-15.51.02:661][208]LogLinker:Warning: Can't find file for asset '/Game/Tekstuurei/ZombiHairMat_Mat' while loading NULL.
+[2017.04.27-15.51.15:271][707]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.27-15.51.15:272][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:272][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/zombiVoivittuanimBP.uasset.
+[2017.04.27-15.51.15:272][707]LoadErrors:Error: Error /Game/uusizombi/zombiVoivittuanimBP : Can't find file for asset. /Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005
+[2017.04.27-15.51.15:273][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:273][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/zombiVoivittuanimBP.uasset.
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading NULL.
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading NULL.
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:274][707]LoadErrors: Info Failed to load /Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005.zomebiewalk_Anim_Armature_ArmatureAction_005 Referenced by Default__zombiVoivittuanimBP_C
+[2017.04.27-15.51.15:274][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading NULL.
+[2017.04.27-15.51.15:275][707]LogLinker:Warning: Can't find file '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005'
+[2017.04.27-15.51.15:275][707]LoadErrors: Info Failed to load /Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005.zomebiewalk_Anim_Armature_ArmatureAction_005 Referenced by AnimGraphNode_SequencePlayer_0
+[2017.04.27-15.51.15:275][707]LogLinker:Warning: Can't find file for asset '/Game/zombiesettii/zomebiewalk_Anim_Armature_ArmatureAction_005' while loading NULL.
+[2017.04.27-15.51.15:277][707]LogBlueprint:Error: [Compiler zombiVoivittuanimBP] Error  Play (None)  references an unknown sequence
+[2017.04.27-15.51.15:277][707]LogBlueprint:Error: [Compiler zombiVoivittuanimBP] Error Missing allocated node for AnimGraphNode_SequencePlayer_0 while searching for node links - likely due to the node having outstanding errors.
+[2017.04.27-15.51.15:278][707]LogBlueprint:Warning: [Compiler zombiVoivittuanimBP] Warning [0154.49] Compile of zombiVoivittuanimBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 1 ms] (/Game/uusizombi/zombiVoivittuanimBP.zombiVoivittuanimBP)
+[2017.04.27-15.51.15:279][707]LogBlueprint:Warning: [Compiler zombiVoivittuanimBP] Warning [0154.49] Compile of zombiVoivittuanimBP failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/uusizombi/zombiVoivittuanimBP.zombiVoivittuanimBP)
+[2017.04.27-15.51.15:279][707]LogBlueprint:Warning: [Compiler zombiVoivittuanimBP] Warning [0154.49] Compile of zombiVoivittuanimBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/uusizombi/zombiVoivittuanimBP.zombiVoivittuanimBP)
+[2017.04.27-15.51.18:774][121]BlueprintLog: New page: Compile Enemy2
+[2017.04.27-15.51.32:634][691]LogEditorViewport: Clicking Background
+[2017.04.27-15.52.08:345][224]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.27-15.52.08:489][224]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.27-15.52.13:249][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.04.27-15.52.37:398][850]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/uusizombi/zomebiewalk_Anim_Armature_ArmatureAction_005.zomebiewalk_Anim_Armature_ArmatureAction_005
+[2017.04.27-15.52.37:455][850]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.04.27-15.52.50:230][703]BlueprintLog: New page: Compile Enemy2
+[2017.04.27-15.52.51:290][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy2" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset" SILENT=true
+[2017.04.27-15.52.51:349][805]LogSavePackage: Save=47.75ms
+[2017.04.27-15.52.51:349][805]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/Enemy2E84EE64640077B04048905B8FE6DFF7E.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset'
+[2017.04.27-15.52.51:352][805]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset
+[2017.04.27-15.52.51:830][860]BlueprintLog: New page: Compile Enemy2
+[2017.04.27-15.52.59:359][615]BlueprintLog: New page: Compile Enemy2
+[2017.04.27-15.53.00:281][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy2" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset" SILENT=true
+[2017.04.27-15.53.00:331][702]LogSavePackage: Save=43.93ms
+[2017.04.27-15.53.00:331][702]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/Enemy29E1156024D8998D13C823BB8AB09852B.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset'
+[2017.04.27-15.53.00:333][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Enemy2.uasset
+[2017.04.27-15.53.03:294][911]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.04.27-15.53.07:080][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.04.27-15.53.09:415][361]LogSavePackage: Save=12.59ms
+[2017.04.27-15.53.09:415][361]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/zomebiewalk_Anim_Armature_ArmatureAction_00518812775423960194CBE4DA02CFCE0D7.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/zomebiewalk_Anim_Armature_ArmatureAction_005.uasset'
+[2017.04.27-15.53.09:418][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/uusizombi/zomebiewalk_Anim_Armature_ArmatureAction_005.uasset
+[2017.04.27-15.53.12:607][612]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_5.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.04.27-15.53.15:105][803]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.085 s
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: 
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: Ensure condition failed: AnimBlueprintClass->GetAnimNodeProperties().IsValidIndex(LinkID) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimNodeBase.cpp] [Line: 79]
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: 
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: Stack: 
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E51395D6
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E4EE9B72
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E4EFB656
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DDD84A7D
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DDDB4AF3
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DDD4937B
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DDD48603
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DE02F561
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DE02E521
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC26519F
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-AnimationBlueprintEditor.dll!0x00000000CC3348B1
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000DB38159C
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000DB385FDC
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DDA92F5A
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC8DB4E3
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000DB376082
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000DB381941
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000DB3863E6
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8E28894
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8E6DBC2
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000DAFF5F7D
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8E131D4
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8DE376E
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8DE5366
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8E6F449
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E8E5E3C8
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E512CB2C
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E51167B1
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E512EA0C
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E51126D9
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: USER32.dll!0x0000000008CF1169
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: USER32.dll!0x0000000008CF0C97
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E512F316
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor.exe!0x00000000B759D790
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor.exe!0x00000000B758EB40
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor.exe!0x00000000B758EBBA
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor.exe!0x00000000B75A0A29
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: UE4Editor.exe!0x00000000B75A22B6
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: KERNEL32.DLL!0x0000000009F88102
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: ntdll.dll!0x000000000B71C5B4
+[2017.04.27-15.53.15:105][803]LogOutputDevice:Error: 
+[2017.04.27-15.53.15:112][803]LogStats:                SubmitErrorReport -  0.000 s

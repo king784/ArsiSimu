@@ -1,0 +1,425 @@
+﻿Log file open, 04/27/17 17:25:39
+LogInit:Display: Running engine for game: ArsiSim
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-201810034) SRandInit(-201810034).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068987
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.27-14.25.40:503][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-14.25.40:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.27-14.25.40:512][  0]LogInit: Computer: C3008-04
+[2017.04.27-14.25.40:512][  0]LogInit: User: teemuturku
+[2017.04.27-14.25.40:512][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.27-14.25.40:512][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2017.04.27-14.25.40:513][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.27-14.25.40:513][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.27-14.25.40:513][  0]LogMemory: Process Physical Memory: 262.67 MB used, 262.67 MB peak
+[2017.04.27-14.25.40:513][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.04.27-14.25.40:513][  0]LogMemory: Physical Memory: 3925.11 MB used,  12339.48 MB free, 16264.59 MB total
+[2017.04.27-14.25.40:513][  0]LogMemory: Virtual Memory: 645.56 MB used,  12339.48 MB free, 134217728.00 MB total
+[2017.04.27-14.25.40:576][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.04.27-14.25.41:047][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.27-14.25.41:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.04.27-14.25.41:065][  0]LogD3D11RHI:       1969/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.27-14.25.41:070][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.27-14.25.41:070][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.27-14.25.41:070][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.27-14.25.41:070][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.27-14.25.41:070][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.27-14.25.41:073][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.27-14.25.41:073][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.27-14.25.41:073][  0]LogWindows: EnumDisplayDevices:
+[2017.04.27-14.25.41:073][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.04.27-14.25.41:073][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-14.25.41:073][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-14.25.41:073][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.27-14.25.41:073][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-14.25.41:074][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-14.25.41:074][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-14.25.41:074][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.27-14.25.41:074][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.04.27-14.25.41:074][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.27-14.25.41:074][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.27-14.25.41:074][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.27-14.25.41:085][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.04.27-14.25.41:085][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.27-14.25.41:101][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.27-14.25.41:101][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Intermediate/Shaders/WorkingDirectory/6088/).
+[2017.04.27-14.25.41:101][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/teemu.turku/AppData/Local/Temp/UnrealShaderWorkingDir/437382E14EDB245A91F5EDA2123D57DA/'.
+[2017.04.27-14.25.41:101][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.27-14.25.41:780][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.27-14.25.41:820][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.27-14.25.41:860][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.27-14.25.41:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.27-14.25.41:944][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.27-14.25.41:982][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.27-14.25.42:023][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.27-14.25.42:063][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.27-14.25.42:096][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.27-14.25.42:135][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.27-14.25.42:174][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.27-14.25.42:213][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.27-14.25.42:253][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.27-14.25.42:292][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.27-14.25.42:332][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.27-14.25.42:410][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.27-14.25.42:410][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.27-14.25.42:436][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.27-14.25.42:513][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.27-14.25.42:539][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.27-14.25.42:578][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.27-14.25.42:618][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.27-14.25.42:657][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.27-14.25.42:697][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.27-14.25.42:697][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.27-14.25.43:001][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.27-14.25.43:039][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.27-14.25.43:054][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.27-14.25.43:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/teemu.turku/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.27-14.25.43:072][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.27-14.25.43:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-14.25.43:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-14.25.43:253][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-14.25.43:255][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.27-14.25.43:405][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.27-14.25.43:435][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.27-14.25.43:466][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.27-14.25.43:466][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.27-14.25.43:466][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.27-14.25.43:844][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: arsisim, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 275346067
+[2017.04.27-14.25.43:883][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.04.27-14.25.43:921][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022944 seconds
+[2017.04.27-14.25.43:926][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.27-14.25.43:926][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.04.27-14.25.43:926][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.27-14.25.43:970][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.27-14.25.45:110][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.27-14.25.45:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.27-14.25.45:469][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.27-14.25.45:730][  0]SourceControl: Info Source control is disabled
+[2017.04.27-14.25.45:731][  0]SourceControl: Info Source control is disabled
+[2017.04.27-14.25.45:762][  0]SourceControl: Info Source control is disabled
+[2017.04.27-14.25.45:793][  0]SourceControl: Info Source control is disabled
+[2017.04.27-14.25.46:631][  0]LogEngine: Initializing Engine...
+[2017.04.27-14.25.46:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.27-14.25.46:798][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.27-14.25.46:804][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.25.46:824][  0]LogInit: FAudioDevice initialized.
+[2017.04.27-14.25.46:843][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/teemu.turku/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-14.25.46:848][  0]LogInit: Texture streaming: Enabled
+[2017.04.27-14.25.46:916][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.27-14.25.46:977][  0]LogInit: Transaction tracking system initialized
+[2017.04.27-14.25.47:216][  0]BlueprintLog: New page: Editor Load
+[2017.04.27-14.25.47:836][  0]LocalizationService: Info Localization service is disabled
+[2017.04.27-14.25.48:298][  0]LogConsoleResponse:Display: 
+[2017.04.27-14.25.48:398][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.27-14.25.48:398][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.27-14.25.48:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/' took 0.01s
+[2017.04.27-14.25.49:107][  0]SourceControl: Info Source control is disabled
+[2017.04.27-14.25.49:107][  0]Cmd: MAP LOAD FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Stadion.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.27-14.25.49:108][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/Stadion.umap'
+[2017.04.27-14.25.49:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.27-14.25.49:132][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.9ms to complete.
+[2017.04.27-14.25.49:133][  0]LogFileHelpers: Loading map 'Stadion' took 0.025
+[2017.04.27-14.25.49:187][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.27-14.25.49:275][  0]LogCollectionManager: Loaded 0 collections in 0.001100 seconds
+[2017.04.27-14.25.49:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/Collections/' took 0.01s
+[2017.04.27-14.25.49:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Developers/teemuturku/Collections/' took 0.01s
+[2017.04.27-14.25.49:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Collections/' took 0.01s
+[2017.04.27-14.25.49:340][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.27-14.25.49:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2244 classes and 450 folders.
+[2017.04.27-14.25.49:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.27-14.25.49:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.27-14.25.49:394][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.04.27-14.25.49:419][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.27-14.25.49:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.27-14.25.49:519][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.27-14.25.49:527][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.27-14.25.49:580][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.27-14.25.49:580][  0]LogLoad: (Engine Initialization) Total time: 10.49 seconds
+[2017.04.27-14.25.49:580][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.04.27-14.25.49:580][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.27-14.25.49:580][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.27-14.25.49:590][  0]LogOcInput: OculusInput pre-init called
+[2017.04.27-14.25.49:621][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.27-14.25.49:622][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-14.25.49:625][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.27-14.25.49:629][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.27-14.25.49:773][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:2).
+[2017.04.27-14.25.49:829][  1]LogAssetRegistry: Asset discovery search completed in 5.9680 seconds
+[2017.04.27-14.25.49:829][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.04.27-14.25.49:829][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.04.27-14.25.50:625][ 90]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-14.25.54:830][576]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/' took 5.23s
+[2017.04.27-14.26.04:771][699]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-14.26.05:119][699]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.04.27-14.26.05:643][699]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.27-14.26.08:301][997]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.27-14.26.53:399][403]LogSlate: Took 0.003449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.27-14.27.24:211][944]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.27.25:278][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.27.25:370][986]LogSavePackage: Save=81.08ms
+[2017.04.27-14.27.25:370][986]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar3A1E113A4312DC1F868BE3A78A87392A.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.27.25:372][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.27.38:556][532]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.27.39:404][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.27.39:491][576]LogSavePackage: Save=80.71ms
+[2017.04.27-14.27.39:491][576]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar167D65114FC50E3FFA79BA8C035AAF49.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.27.39:493][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.28.00:709][ 91]BlueprintLog: New page: Compile HUD
+[2017.04.27-14.28.01:343][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/HUD/HUD.uasset" SILENT=true
+[2017.04.27-14.28.01:369][152]LogSavePackage: Save=19.71ms
+[2017.04.27-14.28.01:369][152]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/HUD97CD5229403B71D35D9E0AAE0A557B4B.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/HUD/HUD.uasset'
+[2017.04.27-14.28.01:371][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/HUD/HUD.uasset
+[2017.04.27-14.28.02:342][267]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.28.02:374][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.28.02:374][267]PIE: New page: PIE session: Untitled_0 (27 Apr 2017 20:28:02)
+[2017.04.27-14.28.02:374][267]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2017.04.27-14.28.02:375][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000410s)
+[2017.04.27-14.28.02:375][267]LogAIModule: Creating AISystem for world Untitled
+[2017.04.27-14.28.02:375][267]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2017.04.27-14.28.02:375][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.Untitled to /Temp/UEDPIE_0_Untitled_0.Untitled (0.001068s)
+[2017.04.27-14.28.02:391][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.28.02:399][267]LogInit: FAudioDevice initialized.
+[2017.04.27-14.28.02:449][267]LogLoad: Game class is 'MainMenuMode_C'
+[2017.04.27-14.28.02:451][267]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.Untitled up for play (max tick rate 0) at 2017.04.27-17.28.02
+[2017.04.27-14.28.02:451][267]LogWorld: Bringing up level for play took: 0.000462
+[2017.04.27-14.28.02:455][267]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.27-14.28.02:486][267]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.04.27-14.28.02:488][267]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 -0.033
+[2017.04.27-14.28.07:538][784]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.28.07:592][784]Cmd: MAP LOAD FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Levels/Stadion.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.27-14.28.07:592][784]LightingResults: New page: Lighting Build
+[2017.04.27-14.28.07:623][784]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.04.27-14.28.07:624][784]LoadErrors: New page: Loading map: Stadion.umap
+[2017.04.27-14.28.07:624][784]MapCheck: New page: Map Check
+[2017.04.27-14.28.07:624][784]LightingResults: New page: Lighting Build
+[2017.04.27-14.28.07:706][784]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.27-14.28.07:745][784]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.27-14.28.07:783][784]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.349ms to complete.
+[2017.04.27-14.28.07:784][784]LogFileHelpers: Loading map 'Stadion' took 0.193
+[2017.04.27-14.28.08:626][854]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.28.08:648][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.28.08:648][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.28.08:648][854]PIE: New page: PIE session: Stadion (27 Apr 2017 20:28:08)
+[2017.04.27-14.28.08:648][854]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.28.08:664][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015566s)
+[2017.04.27-14.28.08:664][854]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.28.08:665][854]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2017.04.27-14.28.08:665][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.016257s)
+[2017.04.27-14.28.08:679][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.28.08:686][854]LogInit: FAudioDevice initialized.
+[2017.04.27-14.28.08:720][854]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.28.08:723][854]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.28.08
+[2017.04.27-14.28.08:723][854]LogWorld: Bringing up level for play took: 0.002300
+[2017.04.27-14.28.08:729][854]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion 0.207
+[2017.04.27-14.28.08:729][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.28.36:115][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.28.36:163][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.28.53:486][127]LogEditorTransaction: Undo Change Number Pin Value
+[2017.04.27-14.28.59:696][823]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.29.00:696][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.29.00:786][880]LogSavePackage: Save=84.58ms
+[2017.04.27-14.29.00:786][880]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar39C9FAC04AC843194EEDEBAB10CF9497.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.29.00:789][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.29.01:290][940]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.29.01:312][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.29.01:312][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.29.01:312][940]PIE: New page: PIE session: Stadion (27 Apr 2017 20:29:01)
+[2017.04.27-14.29.01:312][940]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.29.01:328][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016175s)
+[2017.04.27-14.29.01:328][940]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.29.01:329][940]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2017.04.27-14.29.01:329][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.016881s)
+[2017.04.27-14.29.01:343][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.29.01:351][940]LogInit: FAudioDevice initialized.
+[2017.04.27-14.29.01:393][940]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.29.01:396][940]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.29.01
+[2017.04.27-14.29.01:396][940]LogWorld: Bringing up level for play took: 0.002268
+[2017.04.27-14.29.01:405][940]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion 0.884
+[2017.04.27-14.29.01:406][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.29.23:095][535]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.29.23:150][535]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.29.26:912][980]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.29.27:735][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.29.27:821][ 17]LogSavePackage: Save=80.26ms
+[2017.04.27-14.29.27:821][ 17]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar71F334FC4B2CBF81FE1A508C50E542DA.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.29.27:824][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.30.03:601][232]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.30.04:473][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.30.04:560][274]LogSavePackage: Save=80.50ms
+[2017.04.27-14.30.04:560][274]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar9F926D804468A02991432E9C43D2AFC8.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.30.04:562][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.30.05:105][339]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.30.05:127][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.05:127][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.30.05:127][339]PIE: New page: PIE session: Stadion (27 Apr 2017 20:30:05)
+[2017.04.27-14.30.05:127][339]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.30.05:145][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017429s)
+[2017.04.27-14.30.05:145][339]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.30.05:145][339]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.04.27-14.30.05:146][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.018246s)
+[2017.04.27-14.30.05:160][339]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.30.05:168][339]LogInit: FAudioDevice initialized.
+[2017.04.27-14.30.05:213][339]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.30.05:216][339]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.30.05
+[2017.04.27-14.30.05:216][339]LogWorld: Bringing up level for play took: 0.002243
+[2017.04.27-14.30.05:225][339]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion 0.704
+[2017.04.27-14.30.05:225][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.08:362][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.08:415][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.14:561][425]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.30.15:176][441]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.30.15:697][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.30.15:783][442]LogSavePackage: Save=80.55ms
+[2017.04.27-14.30.15:784][442]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar35F74D45403EF1F3EFFD7C9F7A6CFED9.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.30.15:786][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.30.16:587][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.30.16:666][535]LogSavePackage: Save=73.26ms
+[2017.04.27-14.30.16:666][535]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerCharE7E995F44F767E899AE972B8E2235CDC.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.30.16:668][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.30.17:251][605]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.30.17:272][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.17:272][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.30.17:272][605]PIE: New page: PIE session: Stadion (27 Apr 2017 20:30:17)
+[2017.04.27-14.30.17:272][605]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.30.17:286][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013331s)
+[2017.04.27-14.30.17:286][605]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.30.17:286][605]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2017.04.27-14.30.17:286][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.013997s)
+[2017.04.27-14.30.17:301][605]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.30.17:308][605]LogInit: FAudioDevice initialized.
+[2017.04.27-14.30.17:355][605]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.30.17:358][605]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.30.17
+[2017.04.27-14.30.17:358][605]LogWorld: Bringing up level for play took: 0.002302
+[2017.04.27-14.30.17:367][605]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion 0.846
+[2017.04.27-14.30.17:368][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.21:066][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.21:119][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.30.53:516][643]BlueprintLog: New page: Compile PlayerChar
+[2017.04.27-14.30.54:397][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2017.04.27-14.30.54:484][687]LogSavePackage: Save=81.36ms
+[2017.04.27-14.30.54:484][687]LogSavePackage: Moving '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Saved/PlayerChar2B332E174490B8F2B1135EA2163166D3.tmp' to '../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset'
+[2017.04.27-14.30.54:487][687]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/teemu.turku/Desktop/Arsi 27.4/ArsiSim/Content/Blueprints/PlayerChar.uasset
+[2017.04.27-14.31.43:943][503]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.31.43:965][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.31.43:965][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.31.43:966][503]PIE: New page: PIE session: Stadion (27 Apr 2017 20:31:43)
+[2017.04.27-14.31.43:966][503]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.31.43:981][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014947s)
+[2017.04.27-14.31.43:981][503]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.31.43:981][503]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.04.27-14.31.43:981][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.015680s)
+[2017.04.27-14.31.43:997][503]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.31.44:005][503]LogInit: FAudioDevice initialized.
+[2017.04.27-14.31.44:045][503]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.31.44:049][503]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.31.44
+[2017.04.27-14.31.44:049][503]LogWorld: Bringing up level for play took: 0.002274
+[2017.04.27-14.31.44:056][503]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion -0.465
+[2017.04.27-14.31.44:057][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.31.56:681][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.31.56:737][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.32.06:267][757]LogRenderer: Reallocating scene render targets to support 1616x1000 NumSamples 1 (Frame:15837).
+[2017.04.27-14.33.16:901][838]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.27-14.33.16:926][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.33.16:926][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.27-14.33.16:926][838]PIE: New page: PIE session: Stadion (27 Apr 2017 20:33:16)
+[2017.04.27-14.33.16:926][838]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Stadion
+[2017.04.27-14.33.16:941][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014977s)
+[2017.04.27-14.33.16:942][838]LogAIModule: Creating AISystem for world Stadion
+[2017.04.27-14.33.16:942][838]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.04.27-14.33.16:942][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Stadion.Stadion to /Game/Levels/UEDPIE_0_Stadion.Stadion (0.015770s)
+[2017.04.27-14.33.16:957][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-14.33.16:965][838]LogInit: FAudioDevice initialized.
+[2017.04.27-14.33.17:003][838]LogLoad: Game class is 'Kuulamode_C'
+[2017.04.27-14.33.17:006][838]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Stadion.Stadion up for play (max tick rate 0) at 2017.04.27-17.33.17
+[2017.04.27-14.33.17:006][838]LogWorld: Bringing up level for play took: 0.002194
+[2017.04.27-14.33.17:011][838]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Stadion 0.49
+[2017.04.27-14.33.17:012][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Stadion.Stadion:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion' with GeneratedClass '/Game/Levels/Stadion.Stadion_C' with ClassGeneratedBy '/Game/Levels/Stadion.Stadion:PersistentLevel.Stadion'
+[2017.04.27-14.33.26:432][940]LogNet: Browse: /Game/Levels/MainMenu
+[2017.04.27-14.33.26:432][940]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2017.04.27-14.33.26:451][940]Cmd: MEM
+[2017.04.27-14.33.26:465][940]LogMemory: Platform Memory Stats for Windows
+[2017.04.27-14.33.26:465][940]LogMemory: Process Physical Memory: 1594.10 MB used, 1606.60 MB peak
+[2017.04.27-14.33.26:465][940]LogMemory: Process Virtual Memory: 3031.10 MB used, 3105.29 MB peak
+[2017.04.27-14.33.26:465][940]LogMemory: Physical Memory: 5318.87 MB used,  10945.72 MB free, 16264.59 MB total
+[2017.04.27-14.33.26:465][940]LogMemory: Virtual Memory: 3886.11 MB used,  10945.72 MB free, 134217728.00 MB total
+[2017.04.27-14.33.26:465][940]LogMemory: 
+[2017.04.27-14.33.26:465][940]Allocator Stats for TBB: (not implemented)
+[2017.04.27-14.33.26:622][940]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.100 s
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: 
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1282]
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: 
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: Stack: 
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E51395D6
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E4EE9B72
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E4EFB656
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000E3C9B7A7
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000E3C6BFCD
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E9380DFA
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E95B113A
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E95C4970
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E95C3E67
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DEBA7CAD
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DEB5D43E
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DEBCBC30
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC58637F
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DCD91AD6
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor.exe!0x00000000B759DEE3
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor.exe!0x00000000B758EB40
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor.exe!0x00000000B758EBBA
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor.exe!0x00000000B75A0A29
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: UE4Editor.exe!0x00000000B75A22B6
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: KERNEL32.DLL!0x0000000009F88102
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: ntdll.dll!0x000000000B71C5B4
+[2017.04.27-14.33.26:622][940]LogOutputDevice:Error: 
+[2017.04.27-14.33.26:630][940]LogStats:                SubmitErrorReport -  0.000 s
